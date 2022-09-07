@@ -15,9 +15,9 @@ void setup() {
 }
 
 void draw() {
-  int y = arduino.analogRead(4);
-  System.out.println("y = " + y);
-  delay(Math.max(-500*3*y/1034 + 500, 0));
+  int input1 = arduino.analogRead(4);
+  System.out.println("input1 = " + input1);
+  delay(Math.max(-500*3*input1/1034 + 500, 0));
    background(50, 146, 252);
   // body
   fill(255,165,0);
