@@ -24,8 +24,8 @@ void draw() {
   ellipse(350,350,300,300);
   noFill();
   // eye
-  if (y < 100) {
-    fill(255, 24, y);
+  if (input1 < 100) {
+    fill(255, 24, input1);
   } else {
     fill (0, 0, 0);
   }
@@ -39,7 +39,7 @@ void draw() {
   ellipse(380,505,20,20);
    line(380,513,340,580);
    line(360,500,290,570);
-  /* if (y < 100) {
+  /* if (input1 < 100) {input1
     line(380,503,480,510);
     line(360,500,290,540);
   } else {
